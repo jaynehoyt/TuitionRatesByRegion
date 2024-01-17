@@ -3,7 +3,7 @@
     "path": "~/MSA Code/Side Project/SideProject.Rmd",
     "project_path": "SideProject.Rmd",
     "type": "r_markdown",
-    "hash": "650371387",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1705528349351.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "558,146",
-        "scrollLine": "529"
+        "cursorPosition": "533,3",
+        "scrollLine": "515"
     },
     "folds": "",
-    "lastKnownWriteTime": 1705530930,
+    "lastKnownWriteTime": 1705533288,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1705530930515,
+    "last_content_update": 1705533288754,
     "read_only": false,
     "read_only_alternatives": []
 }

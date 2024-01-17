@@ -1,5 +1,5 @@
 ---
-title: "U.S. Region Tuition Increase Comparison"
+title: "U.S. Region Tuition Increase Comparison for 4-Year Public Universities"
 author: "Jayne Hoyt"
 date: "January 17, 2024"
 output:
@@ -783,13 +783,15 @@ Degrees of Freedom = 20
 
 ```r
 #Find P-value
-2*pt(-7.387, 20)
+p = 2*pt(-7.387, 20)
+p = p * 15 # Bonferonni adjustment
+p
 ```
 
 ```
-## [1] 3.904933e-07
+## [1] 5.857399e-06
 ```
-P-value = 1.745E-08
+P-value = 5.857
 
 **SIGNIFICANTLY DIFFERENT**
 
@@ -816,13 +818,15 @@ Degrees of Freedom = 20
 
 ```r
 #Find P-value
-2*pt(-2.007, 20)
+p = 2*pt(-2.007, 20)
+p = p * 15 # Bonferonni adjustment
+p
 ```
 
 ```
-## [1] 0.05845728
+## [1] 0.8768592
 ```
-P-value = 0.0530
+P-value = 0.877
 
 *Not significantly different*
 
@@ -850,3 +854,5 @@ are all significantly different using a p-value of 0.01.
 # Tableau Visualizations
 
 [Tableau Dashboard](https://public.tableau.com/views/U_S_RegionTuitionIncreaseComparison/Tuition?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+(https://public.tableau.com/views/U_S_RegionTuitionIncreaseComparison/Tuition?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
