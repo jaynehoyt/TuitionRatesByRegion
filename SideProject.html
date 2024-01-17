@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Jayne Hoyt" />
+
+<meta name="date" content="2024-01-17" />
+
+<title>U.S. Region Tuition Increase Comparison</title>
+
+<script src="SideProject_files/header-attrs-2.22/header-attrs.js"></script>
+<script src="SideProject_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="SideProject_files/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="SideProject_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="SideProject_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="SideProject_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="SideProject_files/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="SideProject_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="SideProject_files/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="SideProject_files/navigation-1.1/tabsets.js"></script>
+<script src="SideProject_files/navigation-1.1/codefolding.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+<style type="text/css">
+  code {
+    white-space: pre;
+  }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #204a87; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #204a87; font-weight: bold; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #ce5c00; font-weight: bold; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+
+.sourceCode .row {
+  width: 100%;
+}
+.sourceCode {
+  overflow-x: auto;
+}
+.code-folding-btn {
+  margin-right: -30px;
+}
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    var j = 0;
+    while (j < rules.length) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">U.S. Region Tuition Increase
+Comparison</h1>
+<h4 class="author">Jayne Hoyt</h4>
+<h4 class="date">January 17, 2024</h4>
+
+</div>
+
+
+<div id="loading-in-data" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Loading in Data</h1>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a>newEngland <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;4YrPublicNewEngland.csv&quot;</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>newEngland <span class="ot">&lt;-</span> newEngland <span class="sc">%&gt;%</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;=</span> <span class="dv">2002</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a>national <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;4YrPublicNational.csv&quot;</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" tabindex="-1"></a>national <span class="ot">&lt;-</span> national <span class="sc">%&gt;%</span></span>
+<span id="cb1-7"><a href="#cb1-7" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;=</span> <span class="dv">2002</span>)</span>
+<span id="cb1-8"><a href="#cb1-8" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" tabindex="-1"></a>middle <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;4YrPublicMiddle.csv&quot;</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" tabindex="-1"></a>middle <span class="ot">&lt;-</span> middle <span class="sc">%&gt;%</span></span>
+<span id="cb1-11"><a href="#cb1-11" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;=</span> <span class="dv">2002</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" tabindex="-1"></a>midwest <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;4YrPublicMidwest.csv&quot;</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" tabindex="-1"></a>midwest <span class="ot">&lt;-</span> midwest <span class="sc">%&gt;%</span></span>
+<span id="cb1-15"><a href="#cb1-15" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;=</span> <span class="dv">2002</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" tabindex="-1"></a>west <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;4YrPublicWest.csv&quot;</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" tabindex="-1"></a>west <span class="ot">&lt;-</span> west <span class="sc">%&gt;%</span></span>
+<span id="cb1-19"><a href="#cb1-19" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;=</span> <span class="dv">2002</span>)</span>
+<span id="cb1-20"><a href="#cb1-20" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" tabindex="-1"></a>south <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;4YrPublicSouth.csv&quot;</span>)</span>
+<span id="cb1-22"><a href="#cb1-22" tabindex="-1"></a>south <span class="ot">&lt;-</span> south <span class="sc">%&gt;%</span></span>
+<span id="cb1-23"><a href="#cb1-23" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;=</span> <span class="dv">2002</span>)</span>
+<span id="cb1-24"><a href="#cb1-24" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" tabindex="-1"></a>southwest <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;4YrPublicSouthwest.csv&quot;</span>)</span>
+<span id="cb1-26"><a href="#cb1-26" tabindex="-1"></a>southwest <span class="ot">&lt;-</span> southwest <span class="sc">%&gt;%</span></span>
+<span id="cb1-27"><a href="#cb1-27" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;=</span> <span class="dv">2002</span>)</span>
+<span id="cb1-28"><a href="#cb1-28" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" tabindex="-1"></a>fourYrPublic <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&quot;4YrPublicALL.csv&quot;</span>)</span>
+<span id="cb1-30"><a href="#cb1-30" tabindex="-1"></a>fourYrPublic <span class="ot">&lt;-</span> fourYrPublic <span class="sc">%&gt;%</span></span>
+<span id="cb1-31"><a href="#cb1-31" tabindex="-1"></a>  <span class="fu">filter</span>(Year <span class="sc">&gt;=</span> <span class="dv">2002</span>)</span>
+<span id="cb1-32"><a href="#cb1-32" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" tabindex="-1"></a><span class="fu">head</span>(fourYrPublic)</span></code></pre></div>
+<pre><code>##   Year National MiddleStates Midwest NewEngland South Southwest West
+## 1 2002     4100         5590    4890       5350  3380      3400 3030
+## 2 2003     4650         5930    5450       6240  3810      3930 3700
+## 3 2004     5130         6290    6070       6880  4130      4690 4120
+## 4 2005     5490         6600    6570       7260  4430      5040 4470
+## 5 2006     5800         6860    6930       7670  4730      5540 4650
+## 6 2007     6190         7250    7380       8120  5020      5980 5030</code></pre>
+</div>
+<div id="vizualizing-data" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Vizualizing Data</h1>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co">#Tuition Prices over Time Among Regions</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a>plot <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(fourYrPublic, <span class="fu">aes</span>(Year)) <span class="sc">+</span></span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> MiddleStates), <span class="at">color =</span> <span class="st">&quot;#e40000&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;solid&quot;</span>, <span class="at">linewidth =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb3-4"><a href="#cb3-4" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> Midwest), <span class="at">color =</span> <span class="st">&quot;#FA9C1B&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;solid&quot;</span>, <span class="at">linewidth =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb3-5"><a href="#cb3-5" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> NewEngland), <span class="at">color =</span> <span class="st">&quot;#FFD700&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;solid&quot;</span>, <span class="at">linewidth =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb3-6"><a href="#cb3-6" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> South), <span class="at">color =</span> <span class="st">&quot;#90EE90&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;solid&quot;</span>, <span class="at">linewidth =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb3-7"><a href="#cb3-7" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> Southwest), <span class="at">color =</span> <span class="st">&quot;#ADDAE6&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;solid&quot;</span>, <span class="at">linewidth =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb3-8"><a href="#cb3-8" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> West), <span class="at">color =</span> <span class="st">&quot;#D6B4Fc&quot;</span>, <span class="at">linetype =</span> <span class="st">&quot;solid&quot;</span>, <span class="at">linewidth =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb3-9"><a href="#cb3-9" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Year&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Tuition Cost&quot;</span>, <span class="at">title =</span> <span class="st">&quot;Tuition Prices over Time Among Regions (2002-2023)&quot;</span>) <span class="sc">+</span></span>
+<span id="cb3-10"><a href="#cb3-10" tabindex="-1"></a>  <span class="fu">theme_dark</span>() <span class="sc">+</span> <span class="fu">theme</span>(</span>
+<span id="cb3-11"><a href="#cb3-11" tabindex="-1"></a>  <span class="at">text =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">&quot;sans&quot;</span>, <span class="at">size =</span> <span class="dv">12</span>),  <span class="co"># Change font to Arial and set size</span></span>
+<span id="cb3-12"><a href="#cb3-12" tabindex="-1"></a>  <span class="at">title =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">&quot;serif&quot;</span>, <span class="at">face =</span> <span class="st">&quot;bold&quot;</span>, <span class="at">size =</span> <span class="dv">16</span>),  <span class="co"># Change title font</span></span>
+<span id="cb3-13"><a href="#cb3-13" tabindex="-1"></a>  <span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">&quot;sans&quot;</span>, <span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>),  <span class="co"># Change x-axis text font and rotation</span></span>
+<span id="cb3-14"><a href="#cb3-14" tabindex="-1"></a>  <span class="at">axis.text.y =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">&quot;sans&quot;</span>, <span class="at">size =</span> <span class="dv">10</span>),  <span class="co"># Change y-axis text font</span></span>
+<span id="cb3-15"><a href="#cb3-15" tabindex="-1"></a>  <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">family =</span> <span class="st">&quot;serif&quot;</span>, <span class="at">size =</span> <span class="dv">8</span>)  <span class="co"># Change legend text font</span></span>
+<span id="cb3-16"><a href="#cb3-16" tabindex="-1"></a>)</span>
+<span id="cb3-17"><a href="#cb3-17" tabindex="-1"></a></span>
+<span id="cb3-18"><a href="#cb3-18" tabindex="-1"></a>plot</span></code></pre></div>
+<p><img
+src="SideProject_files/figure-html/unnamed-chunk-3-1.png" /><!-- --></p>
+<hr />
+</div>
+<div id="linear-regression-for-each-region" class="section level1"
+number="3">
+<h1><span class="header-section-number">3</span> Linear Regression for
+Each Region</h1>
+<div id="national" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> National</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a>national_lm  <span class="ot">&lt;-</span> <span class="fu">lm</span>( Cost <span class="sc">~</span> Year, <span class="at">data =</span> national)</span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="fu">summary</span>(national_lm)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = Cost ~ Year, data = national)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -566.28 -218.86  -47.16  258.98  597.44 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -682196.36   24695.89  -27.62   &lt;2e-16 ***
+## Year            343.07      12.27   27.96   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 365.2 on 20 degrees of freedom
+## Multiple R-squared:  0.975,  Adjusted R-squared:  0.9738 
+## F-statistic: 781.6 on 1 and 20 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div id="middle-states" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Middle States</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>middle_lm  <span class="ot">&lt;-</span> <span class="fu">lm</span>(Cost <span class="sc">~</span> Year, <span class="at">data =</span> middle)</span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a><span class="fu">summary</span>(middle_lm)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = Cost ~ Year, data = middle)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -343.20 -153.43  -38.85  185.56  287.99 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -6.334e+05  1.343e+04  -47.15   &lt;2e-16 ***
+## Year         3.193e+02  6.675e+00   47.83   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 198.6 on 20 degrees of freedom
+## Multiple R-squared:  0.9913, Adjusted R-squared:  0.9909 
+## F-statistic:  2288 on 1 and 20 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div id="midwest" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Midwest</h2>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a>midwest_lm  <span class="ot">&lt;-</span> <span class="fu">lm</span>(Cost <span class="sc">~</span> Year, <span class="at">data =</span> midwest)</span>
+<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a><span class="fu">summary</span>(midwest_lm)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = Cost ~ Year, data = midwest)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -734.90 -192.20   -3.87  235.30  519.46 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -640147.27   22013.28  -29.08   &lt;2e-16 ***
+## Year            322.56      10.94   29.49   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 325.5 on 20 degrees of freedom
+## Multiple R-squared:  0.9775, Adjusted R-squared:  0.9764 
+## F-statistic: 869.6 on 1 and 20 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div id="new-england" class="section level2" number="3.4">
+<h2><span class="header-section-number">3.4</span> New England</h2>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a>newEngland_lm  <span class="ot">&lt;-</span> <span class="fu">lm</span>(Cost <span class="sc">~</span> Year, <span class="at">data =</span> newEngland)</span>
+<span id="cb10-2"><a href="#cb10-2" tabindex="-1"></a><span class="fu">summary</span>(newEngland_lm)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = Cost ~ Year, data = newEngland)
+## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -549.0 -107.8    8.9  116.5  465.1 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -9.282e+05  1.607e+04  -57.76   &lt;2e-16 ***
+## Year         4.666e+02  7.986e+00   58.43   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 237.6 on 20 degrees of freedom
+## Multiple R-squared:  0.9942, Adjusted R-squared:  0.9939 
+## F-statistic:  3414 on 1 and 20 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div id="south" class="section level2" number="3.5">
+<h2><span class="header-section-number">3.5</span> South</h2>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a>south_lm  <span class="ot">&lt;-</span> <span class="fu">lm</span>(Cost <span class="sc">~</span> Year, <span class="at">data =</span> south)</span>
+<span id="cb12-2"><a href="#cb12-2" tabindex="-1"></a><span class="fu">summary</span>(south_lm)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = Cost ~ Year, data = south)
+## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -903.9 -270.2 -178.3  457.3  614.8 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -686712.73   31080.10  -22.09 1.60e-15 ***
+## Year            344.83      15.44   22.33 1.31e-15 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 459.6 on 20 degrees of freedom
+## Multiple R-squared:  0.9614, Adjusted R-squared:  0.9595 
+## F-statistic: 498.6 on 1 and 20 DF,  p-value: 1.306e-15</code></pre>
+</div>
+<div id="southwest" class="section level2" number="3.6">
+<h2><span class="header-section-number">3.6</span> Southwest</h2>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a>southwest_lm  <span class="ot">&lt;-</span> <span class="fu">lm</span>(Cost <span class="sc">~</span> Year, <span class="at">data =</span> southwest)</span>
+<span id="cb14-2"><a href="#cb14-2" tabindex="-1"></a><span class="fu">summary</span>(southwest_lm)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = Cost ~ Year, data = southwest)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -662.61  -61.24   75.56  177.79  317.71 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -6.865e+05  1.866e+04  -36.79   &lt;2e-16 ***
+## Year         3.449e+02  9.272e+00   37.20   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 275.9 on 20 degrees of freedom
+## Multiple R-squared:  0.9858, Adjusted R-squared:  0.985 
+## F-statistic:  1384 on 1 and 20 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+<div id="west" class="section level2" number="3.7">
+<h2><span class="header-section-number">3.7</span> West</h2>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a>west_lm  <span class="ot">&lt;-</span> <span class="fu">lm</span>(Cost <span class="sc">~</span> Year, <span class="at">data =</span> west)</span>
+<span id="cb16-2"><a href="#cb16-2" tabindex="-1"></a><span class="fu">summary</span>(west_lm)</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = Cost ~ Year, data = west)
+## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -725.5 -483.9 -221.8  421.8 1226.2 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) -749050.00   42285.23  -17.71 1.08e-13 ***
+## Year            375.97      21.01   17.89 8.93e-14 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 625.2 on 20 degrees of freedom
+## Multiple R-squared:  0.9412, Adjusted R-squared:  0.9383 
+## F-statistic: 320.2 on 1 and 20 DF,  p-value: 8.932e-14</code></pre>
+</div>
+</div>
+<div id="performing-two-sample-t-tests" class="section level1"
+number="4">
+<h1><span class="header-section-number">4</span> Performing Two-Sample
+T-Tests</h1>
+<div id="southwest-v-west" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Southwest v West</h2>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="co">#Southwest v West</span></span>
+<span id="cb18-2"><a href="#cb18-2" tabindex="-1"></a><span class="co"># Null : Southwest = West</span></span>
+<span id="cb18-3"><a href="#cb18-3" tabindex="-1"></a><span class="co"># Alternative: Southwest &lt; West </span></span>
+<span id="cb18-4"><a href="#cb18-4" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" tabindex="-1"></a> <span class="co">#(beta1_{group1} - beta1_{group2})/sqrt(se(beta1__{group1})^2 + se(beta1_{group2})^2)</span></span>
+<span id="cb18-6"><a href="#cb18-6" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">344.9</span> <span class="sc">-</span> <span class="fl">375.97</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">9.272</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">21.01</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb18-8"><a href="#cb18-8" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -1.35293</code></pre>
+<p>Test Statistic = -1.353</p>
+<p>Degrees of Freedom= 20</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb20-2"><a href="#cb20-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb20-3"><a href="#cb20-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb20-4"><a href="#cb20-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 2.867632</code></pre>
+<p>P-value : 1</p>
+<p><em>Not significantly different</em></p>
+</div>
+<div id="west-v-new-england" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> <strong>West v New
+England</strong></h2>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" tabindex="-1"></a><span class="co">#West vs New England</span></span>
+<span id="cb22-2"><a href="#cb22-2" tabindex="-1"></a><span class="co"># Null : West = New England</span></span>
+<span id="cb22-3"><a href="#cb22-3" tabindex="-1"></a><span class="co"># Alternative: West &lt; New England</span></span>
+<span id="cb22-4"><a href="#cb22-4" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">375.97</span><span class="sc">-</span> <span class="fl">466.6</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">21.01</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">7.986</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb22-6"><a href="#cb22-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -4.032198</code></pre>
+<p>Test Statistic = -4.03</p>
+<p>Degrees of Freedom= 20</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb24-2"><a href="#cb24-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(<span class="sc">-</span><span class="fl">4.03</span>, <span class="dv">20</span>) </span>
+<span id="cb24-3"><a href="#cb24-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span>  <span class="co">#Bonferroni adjustment </span></span>
+<span id="cb24-4"><a href="#cb24-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 0.009837943</code></pre>
+<p>P-value = 0.00984</p>
+<p><strong>SIGNIFICANTLY DIFFERENT</strong></p>
+<p>Therefore we reject the null hypothesis. There is sufficient evidence
+to support the claim that the West is increasing a statistically lower
+rate than New England.</p>
+</div>
+<div id="midwest-v-west" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Midwest v West</h2>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" tabindex="-1"></a><span class="co"># Midwest vs West</span></span>
+<span id="cb26-2"><a href="#cb26-2" tabindex="-1"></a><span class="co"># Null :Midwest = West </span></span>
+<span id="cb26-3"><a href="#cb26-3" tabindex="-1"></a><span class="co"># Alternative: Midwest &lt; West </span></span>
+<span id="cb26-4"><a href="#cb26-4" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">322.56</span> <span class="sc">-</span> <span class="fl">375.97</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">10.94</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">21.01</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb26-6"><a href="#cb26-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -2.254764</code></pre>
+<p>Test Statistic = -2.255</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb28-2"><a href="#cb28-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>)</span>
+<span id="cb28-3"><a href="#cb28-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span>  <span class="co">#Bonferroni adjustment </span></span>
+<span id="cb28-4"><a href="#cb28-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 0.5327194</code></pre>
+<p>P-value = 0.532</p>
+<p><em>Not significantly different</em></p>
+</div>
+<div id="southwest-v-new-england" class="section level2" number="4.4">
+<h2><span class="header-section-number">4.4</span> <strong>Southwest v
+New England</strong></h2>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a><span class="co">#Southwest vs New England</span></span>
+<span id="cb30-2"><a href="#cb30-2" tabindex="-1"></a><span class="co"># Null : Southwest = New England</span></span>
+<span id="cb30-3"><a href="#cb30-3" tabindex="-1"></a><span class="co"># Alternative: Southwest &lt; New England</span></span>
+<span id="cb30-4"><a href="#cb30-4" tabindex="-1"></a></span>
+<span id="cb30-5"><a href="#cb30-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">344.9</span><span class="sc">-</span> <span class="fl">466.6</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">9.272</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">7.986</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb30-6"><a href="#cb30-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -9.945181</code></pre>
+<p>Test Statistic = -9.945</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb32"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb32-2"><a href="#cb32-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb32-3"><a href="#cb32-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb32-4"><a href="#cb32-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 5.204839e-08</code></pre>
+<p>P-value = 5.205e-08</p>
+<p><strong>SIGNIFICANTLY DIFFERENT</strong></p>
+<p>Therefore we reject the null hypothesis. There is sufficient evidence
+to support the claim that the Southwest is increasing a statistically
+lower rate than New England.</p>
+</div>
+<div id="midwest-v-southwest" class="section level2" number="4.5">
+<h2><span class="header-section-number">4.5</span> Midwest v
+Southwest</h2>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" tabindex="-1"></a><span class="co">#Midwest vs Southwest</span></span>
+<span id="cb34-2"><a href="#cb34-2" tabindex="-1"></a><span class="co"># Null : Midwest = Southwest</span></span>
+<span id="cb34-3"><a href="#cb34-3" tabindex="-1"></a><span class="co"># Alternative: Midwest &lt; Southwest</span></span>
+<span id="cb34-4"><a href="#cb34-4" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">322.56</span> <span class="sc">-</span> <span class="fl">344.9</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">10.94</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">9.272</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb34-6"><a href="#cb34-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -1.557812</code></pre>
+<p>Test Statistic = -1.56</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb36"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb36-2"><a href="#cb36-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb36-3"><a href="#cb36-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb36-4"><a href="#cb36-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 2.024423</code></pre>
+<p>P-value = 1</p>
+<p><em>Not significantly different</em></p>
+</div>
+<div id="south-v-west" class="section level2" number="4.6">
+<h2><span class="header-section-number">4.6</span> South v West</h2>
+<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" tabindex="-1"></a><span class="co">#South v West</span></span>
+<span id="cb38-2"><a href="#cb38-2" tabindex="-1"></a><span class="co"># Null : South = West</span></span>
+<span id="cb38-3"><a href="#cb38-3" tabindex="-1"></a><span class="co"># Alternative: South &lt; West</span></span>
+<span id="cb38-4"><a href="#cb38-4" tabindex="-1"></a></span>
+<span id="cb38-5"><a href="#cb38-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">344.83</span> <span class="sc">-</span> <span class="fl">375.97</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">15.44</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">21.01</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb38-6"><a href="#cb38-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -1.194328</code></pre>
+<p>Test Statistic = -1.194</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb40-2"><a href="#cb40-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb40-3"><a href="#cb40-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb40-4"><a href="#cb40-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 3.694838</code></pre>
+<p>P-value = 1</p>
+<p><em>Not significantly different</em></p>
+</div>
+<div id="south-v-southwest" class="section level2" number="4.7">
+<h2><span class="header-section-number">4.7</span> South v
+Southwest</h2>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" tabindex="-1"></a><span class="co">#South vs Southwest</span></span>
+<span id="cb42-2"><a href="#cb42-2" tabindex="-1"></a><span class="co"># Null : South = Southwest</span></span>
+<span id="cb42-3"><a href="#cb42-3" tabindex="-1"></a><span class="co"># Alternative: South &lt; Southwest</span></span>
+<span id="cb42-4"><a href="#cb42-4" tabindex="-1"></a></span>
+<span id="cb42-5"><a href="#cb42-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">344.83</span> <span class="sc">-</span> <span class="fl">344.9</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">9.272</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">15.44</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb42-6"><a href="#cb42-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -0.003886709</code></pre>
+<p>Test Statistic = -0.00389</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb44-2"><a href="#cb44-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb44-3"><a href="#cb44-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb44-4"><a href="#cb44-4" tabindex="-1"></a>p </span></code></pre></div>
+<pre><code>## [1] 14.95406</code></pre>
+<p>P-value = 1</p>
+<p><em>Not significantly different</em></p>
+</div>
+<div id="south-v-new-england" class="section level2" number="4.8">
+<h2><span class="header-section-number">4.8</span> <strong>South v New
+England</strong></h2>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" tabindex="-1"></a><span class="co">#South vs New England</span></span>
+<span id="cb46-2"><a href="#cb46-2" tabindex="-1"></a><span class="co"># Null : South = New England</span></span>
+<span id="cb46-3"><a href="#cb46-3" tabindex="-1"></a><span class="co"># Alternative: South &lt; New England</span></span>
+<span id="cb46-4"><a href="#cb46-4" tabindex="-1"></a></span>
+<span id="cb46-5"><a href="#cb46-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">344.83</span><span class="sc">-</span> <span class="fl">466.6</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">15.44</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">7.986</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb46-6"><a href="#cb46-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -7.005107</code></pre>
+<p>Test Statistic = -7.005</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb48-2"><a href="#cb48-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb48-3"><a href="#cb48-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb48-4"><a href="#cb48-4" tabindex="-1"></a>p </span></code></pre></div>
+<pre><code>## [1] 1.276147e-05</code></pre>
+<p>P-value = 1.276e-05</p>
+<p><strong>SIGNIFICANTLY DIFFERENT</strong></p>
+<p>Therefore we reject the null hypothesis. There is sufficient evidence
+to support the claim that the South is increasing a statistically lower
+rate than New England.</p>
+</div>
+<div id="midwest-v-south" class="section level2" number="4.9">
+<h2><span class="header-section-number">4.9</span> Midwest v South</h2>
+<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" tabindex="-1"></a><span class="co">#Midwest vs South</span></span>
+<span id="cb50-2"><a href="#cb50-2" tabindex="-1"></a><span class="co"># Null :  Midwest = South</span></span>
+<span id="cb50-3"><a href="#cb50-3" tabindex="-1"></a><span class="co"># Alternative: Midwest &lt; South</span></span>
+<span id="cb50-4"><a href="#cb50-4" tabindex="-1"></a></span>
+<span id="cb50-5"><a href="#cb50-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">322.56</span> <span class="sc">-</span> <span class="fl">344.83</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">10.94</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">15.44</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb50-6"><a href="#cb50-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -1.176879</code></pre>
+<p>Test Statistic = -1.177</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="#cb52-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb52-2"><a href="#cb52-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb52-3"><a href="#cb52-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb52-4"><a href="#cb52-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 3.795913</code></pre>
+<p>P-value = 1</p>
+<p><em>Not significantly different</em></p>
+</div>
+<div id="south-v-middle-states" class="section level2" number="4.10">
+<h2><span class="header-section-number">4.10</span> South v Middle
+States</h2>
+<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="#cb54-1" tabindex="-1"></a><span class="co">#Middle States vs South</span></span>
+<span id="cb54-2"><a href="#cb54-2" tabindex="-1"></a><span class="co"># Null :Middle States  = South</span></span>
+<span id="cb54-3"><a href="#cb54-3" tabindex="-1"></a><span class="co"># Alternative:Middle States  &lt; South</span></span>
+<span id="cb54-4"><a href="#cb54-4" tabindex="-1"></a></span>
+<span id="cb54-5"><a href="#cb54-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">319.3</span> <span class="sc">-</span> <span class="fl">344.83</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">6.675</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">15.44</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb54-6"><a href="#cb54-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -1.517737</code></pre>
+<p>Test Statistic = -1.518</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="#cb56-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb56-2"><a href="#cb56-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb56-3"><a href="#cb56-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb56-4"><a href="#cb56-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 2.170947</code></pre>
+<p>P-value = 1</p>
+<p><em>Not significantly different</em></p>
+</div>
+<div id="midwest-v-new-england" class="section level2" number="4.11">
+<h2><span class="header-section-number">4.11</span> <strong>Midwest v
+New England</strong></h2>
+<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="#cb58-1" tabindex="-1"></a><span class="co"># Midwest vs New England</span></span>
+<span id="cb58-2"><a href="#cb58-2" tabindex="-1"></a><span class="co"># Null : Midwest = New England</span></span>
+<span id="cb58-3"><a href="#cb58-3" tabindex="-1"></a><span class="co"># Alternative: Midwest &lt; New England</span></span>
+<span id="cb58-4"><a href="#cb58-4" tabindex="-1"></a></span>
+<span id="cb58-5"><a href="#cb58-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">322.56</span> <span class="sc">-</span> <span class="fl">466.6</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">7.986</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">10.94</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb58-6"><a href="#cb58-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -10.63439</code></pre>
+<p>Test Statistic = -10.634</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb60"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb60-1"><a href="#cb60-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb60-2"><a href="#cb60-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb60-3"><a href="#cb60-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb60-4"><a href="#cb60-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 1.670539e-08</code></pre>
+<p>P-value = 1.671e-08</p>
+<p><strong>SIGNIFICANTLY DIFFERENT</strong></p>
+<p>Therefore we reject the null hypothesis. There is sufficient evidence
+to support the claim that the Midwest is increasing a statistically
+lower rate than New England.</p>
+</div>
+<div id="middle-states-v-west" class="section level2" number="4.12">
+<h2><span class="header-section-number">4.12</span> Middle States v
+West</h2>
+<div class="sourceCode" id="cb62"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb62-1"><a href="#cb62-1" tabindex="-1"></a><span class="co">#Middle States v West</span></span>
+<span id="cb62-2"><a href="#cb62-2" tabindex="-1"></a><span class="co"># Null : Middle States = West</span></span>
+<span id="cb62-3"><a href="#cb62-3" tabindex="-1"></a><span class="co"># Alternative: Middle States &lt; West</span></span>
+<span id="cb62-4"><a href="#cb62-4" tabindex="-1"></a></span>
+<span id="cb62-5"><a href="#cb62-5" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">319.3</span> <span class="sc">-</span> <span class="fl">375.97</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">21.01</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">6.675</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb62-6"><a href="#cb62-6" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -2.570668</code></pre>
+<p>Test Statistic = -2.57</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb64"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb64-1"><a href="#cb64-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb64-2"><a href="#cb64-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb64-3"><a href="#cb64-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb64-4"><a href="#cb64-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 0.2737</code></pre>
+<p>P-value = 0.2737</p>
+<p><em>Not significantly different</em></p>
+</div>
+<div id="middle-states-v-southwest" class="section level2"
+number="4.13">
+<h2><span class="header-section-number">4.13</span> Middle States v
+Southwest</h2>
+<div class="sourceCode" id="cb66"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb66-1"><a href="#cb66-1" tabindex="-1"></a><span class="co">#Middle States v Southwest</span></span>
+<span id="cb66-2"><a href="#cb66-2" tabindex="-1"></a><span class="co"># Null : Middle States = Southwest</span></span>
+<span id="cb66-3"><a href="#cb66-3" tabindex="-1"></a><span class="co"># Alternative: Middle States &lt; Southwest</span></span>
+<span id="cb66-4"><a href="#cb66-4" tabindex="-1"></a> <span class="co">#(beta1_{group1} - beta1_{group2})/sqrt(se(beta1__{group1})^2 + se(beta1_{group2})^2)</span></span>
+<span id="cb66-5"><a href="#cb66-5" tabindex="-1"></a></span>
+<span id="cb66-6"><a href="#cb66-6" tabindex="-1"></a>t <span class="ot">=</span> (<span class="fl">319.3</span> <span class="sc">-</span> <span class="fl">344.9</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">9.272</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">6.675</span>)<span class="sc">^</span><span class="dv">2</span>)</span>
+<span id="cb66-7"><a href="#cb66-7" tabindex="-1"></a>t</span></code></pre></div>
+<pre><code>## [1] -2.240743</code></pre>
+<p>Test Statistic = -2.241</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb68"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb68-1"><a href="#cb68-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb68-2"><a href="#cb68-2" tabindex="-1"></a>p <span class="ot">=</span> <span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(t, <span class="dv">20</span>) </span>
+<span id="cb68-3"><a href="#cb68-3" tabindex="-1"></a>p <span class="ot">=</span> p <span class="sc">*</span> <span class="dv">15</span> <span class="co"># Bonferonni adjustment</span></span>
+<span id="cb68-4"><a href="#cb68-4" tabindex="-1"></a>p</span></code></pre></div>
+<pre><code>## [1] 0.5482888</code></pre>
+<p>P-value = 0.548</p>
+<p><em>Not significantly different</em></p>
+</div>
+<div id="middle-states-v-new-england" class="section level2"
+number="4.14">
+<h2><span class="header-section-number">4.14</span> <strong>Middle
+States v New England</strong></h2>
+<div class="sourceCode" id="cb70"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb70-1"><a href="#cb70-1" tabindex="-1"></a><span class="co">#Middle States v New England</span></span>
+<span id="cb70-2"><a href="#cb70-2" tabindex="-1"></a><span class="co"># Null : Middle States = New England</span></span>
+<span id="cb70-3"><a href="#cb70-3" tabindex="-1"></a><span class="co"># Alternative: Middle States &lt; New England</span></span>
+<span id="cb70-4"><a href="#cb70-4" tabindex="-1"></a> <span class="co">#(beta1_{group1} - beta1_{group2})/sqrt(se(beta1__{group1})^2 + se(beta1_{group2})^2)</span></span>
+<span id="cb70-5"><a href="#cb70-5" tabindex="-1"></a></span>
+<span id="cb70-6"><a href="#cb70-6" tabindex="-1"></a>(<span class="fl">319.3</span> <span class="sc">-</span> <span class="fl">466.6</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">7.986</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">6.675</span>)<span class="sc">^</span><span class="dv">2</span>)</span></code></pre></div>
+<pre><code>## [1] -14.15223</code></pre>
+<p>Test Statistic = -7.387</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb72"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb72-1"><a href="#cb72-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb72-2"><a href="#cb72-2" tabindex="-1"></a><span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(<span class="sc">-</span><span class="fl">7.387</span>, <span class="dv">20</span>)</span></code></pre></div>
+<pre><code>## [1] 3.904933e-07</code></pre>
+<p>P-value = 1.745E-08</p>
+<p><strong>SIGNIFICANTLY DIFFERENT</strong></p>
+<p>Therefore we reject the null hypothesis. There is sufficient evidence
+to support the claim that the Middle States are increasing a
+statistically lower rate than New England.</p>
+</div>
+<div id="middle-states-v-midwest" class="section level2" number="4.15">
+<h2><span class="header-section-number">4.15</span> Middle States v
+Midwest</h2>
+<div class="sourceCode" id="cb74"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb74-1"><a href="#cb74-1" tabindex="-1"></a><span class="co">#Middle States v Midwest</span></span>
+<span id="cb74-2"><a href="#cb74-2" tabindex="-1"></a><span class="co"># Null : Middle States = Midwest</span></span>
+<span id="cb74-3"><a href="#cb74-3" tabindex="-1"></a><span class="co"># Alternative: Middle States &lt; Midwest</span></span>
+<span id="cb74-4"><a href="#cb74-4" tabindex="-1"></a> <span class="co">#(beta1_{group1} - beta1_{group2})/sqrt(se(beta1__{group1})^2 + se(beta1_{group2})^2)</span></span>
+<span id="cb74-5"><a href="#cb74-5" tabindex="-1"></a></span>
+<span id="cb74-6"><a href="#cb74-6" tabindex="-1"></a>(<span class="fl">319.3</span> <span class="sc">-</span> <span class="fl">322.56</span>) <span class="sc">/</span> <span class="fu">sqrt</span>((<span class="fl">10.94</span>)<span class="sc">^</span><span class="dv">2</span> <span class="sc">+</span> (<span class="fl">6.675</span>)<span class="sc">^</span><span class="dv">2</span>)</span></code></pre></div>
+<pre><code>## [1] -0.2543778</code></pre>
+<p>Test Statistic = -2.007</p>
+<p>Degrees of Freedom = 20</p>
+<div class="sourceCode" id="cb76"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb76-1"><a href="#cb76-1" tabindex="-1"></a><span class="co">#Find P-value</span></span>
+<span id="cb76-2"><a href="#cb76-2" tabindex="-1"></a><span class="dv">2</span><span class="sc">*</span><span class="fu">pt</span>(<span class="sc">-</span><span class="fl">2.007</span>, <span class="dv">20</span>)</span></code></pre></div>
+<pre><code>## [1] 0.05845728</code></pre>
+<p>P-value = 0.0530</p>
+<p><em>Not significantly different</em></p>
+</div>
+</div>
+<div id="findings" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Findings</h1>
+<p>After completing this analysis, I found that :</p>
+<ul>
+<li>West vs New England</li>
+<li>Southwest vs New England</li>
+<li>South vs New England</li>
+<li>Midwest vs New England</li>
+<li>Middle States vs New England</li>
+</ul>
+<p>are all significantly different using a p-value of 0.01.</p>
+</div>
+<div id="future-investigations" class="section level1" number="6">
+<h1><span class="header-section-number">6</span> Future
+Investigations</h1>
+<ul>
+<li>Look into the cause of why New England is rising at a higher rate
+than other regions.</li>
+</ul>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "show");
+});
+</script>
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

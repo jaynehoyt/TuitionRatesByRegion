@@ -1,0 +1,102 @@
+---
+title: "Side Project Idea 1"
+author: "Jayne Hoyt"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document: default
+  pdf_document: default
+  theme : journal
+---
+```{r}
+library(dplyr)
+library(tidyverse)
+library(ggplot2)
+library(caret)
+library(beepr)
+library(readxl)
+library(tseries)
+library(forecast)
+library(haven)
+library(fma)
+library(expsmooth)
+library(lmtest)
+library(zoo)
+library(aTSA)
+library(imputeTS)
+library(reticulate)
+library(lubridate)
+```
+
+
+
+```{r}
+twoYr <- read.csv("PublicTwoYear.csv")
+fourYr <- read.csv("PublicFourYear.csv")
+private <- read.csv("PrivateFourYear.csv")
+
+college <- read.csv("collegeCosts.csv")
+
+view(college)
+```
+
+
+```{r}
+#Tuition Prices over Time Between Sectors
+ggplot(college, aes(Year)) +
+  geom_line(aes(y = PublicTwoYear), color = "blue", linetype = "solid") +
+  geom_line(aes(y = PublicFourYear), color = "red", linetype = "solid") +
+  geom_line(aes(y = PrivateFourYear), color = "orange", linetype = "solid") +
+  labs(x = "Year", y = "Tuition Cost", title = "Tuition Prices over Time Between Sectors") +
+  theme_minimal()
+  
+```
+
+
+------------------------------------
+
+# Public Two Year
+
+## Split into Training and Testing Set
+```{r}
+twoYr.train <- twoYr %>%
+  filter(Year < 2022)
+
+twoYr.validation <- twoYr %>%
+  filter(Year == 2022) 
+
+twoYr.test <- twoYr %>%
+  filter(Year == 2023) 
+
+```
+
+
+## Time Plot
+```{r}
+timePlot <- ggplot(twoYr, aes(x=Year, y=Cost, group = 1)) +
+  geom_line() + xlab("Year") + ylab("Tuition Cost") + ggtitle("Average Tuition over Time for Public 2 Year") + theme_update(plot.title = element_text(hjust = 1))
+timePlot
+```
+
+## Create a Time Series Object
+
+```{r}
+twoYr.train.ts <- ts(twoYr.train$Cost, start = 1986, frequency = 1)
+twoYr.validation.ts <- ts(twoYr.validation$Cost, start = 2022, frequency = 1)
+```
+
+
+## Try SES Model
+```{r}
+#Try SES
+SES.twoyr <- ses(twoYr.train.ts, initial = "simple", h = 1)
+
+#view(twoYr)
+
+summary(SES.twoyr)
+
+#MAPE = 4.981
+```
+
+
+
+
