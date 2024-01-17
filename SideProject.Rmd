@@ -555,3 +555,5 @@ are all significantly different using a p-value of 0.01.
 # Tableau Visualizations
 
 [Tableau Dashboard](https://public.tableau.com/views/U_S_RegionTuitionIncreaseComparison/Tuition?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+
+(https://public.tableau.com/views/U_S_RegionTuitionIncreaseComparison/Tuition?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
