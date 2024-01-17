@@ -4,16 +4,20 @@ author: "Jayne Hoyt"
 date: "January 17, 2024"
 output:
   html_document:
-    toc: true
+    
+    toc: yes
     toc_depth: 2
-    toc_float: true
+    toc_float: yes
     code_folding: show
-    number_sections: true
+    number_sections: yes
     theme: spacelab
     highlight: tango
-    fig_caption: true
-    keep_md: true
-    self_contained: false
+    fig_caption: yes
+    keep_md: yes
+    self_contained: no
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
 ---
 
 
@@ -842,3 +846,7 @@ are all significantly different using a p-value of 0.01.
 # Future Investigations
 
 - Look into the cause of why New England is rising at a higher rate than other regions.
+
+# Tableau Visualizations
+
+[Tableau Dashboard](https://public.tableau.com/views/U_S_RegionTuitionIncreaseComparison/Tuition?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
